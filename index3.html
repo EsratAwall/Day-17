@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>media quries</title>
+    <link rel="icon"type="image/x-icon"href="images.jpg">
+    <style>
+.left,main,right {
+ width:10vw;
+ height: 10vw;
+ background-color: red;
+}
+@media screen and (max-width:1000px){
+    .left.main.right{
+      width: 10vw;
+      height:10vw ; 
+      background-color: blueviolet; 
+    }
+}
+@media screen and (max-width:800px){
+
+    .left,main,right{
+        width: 10vw;
+        height: 10vw;
+        background-color: aquamarine;
+    }
+}
+@media screen and (max-width:600px){
+
+    .left,main,right{
+        width: 10vw;
+        height: 10vw;
+        background-color: brown;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+</body>
+
+</html>
