@@ -4,35 +4,84 @@
     <title>media quries</title>
     <link rel="icon"type="image/x-icon"href="images.jpg">
     <style>
-.left,main,right {
- width:10vw;
+.left {
+ width:20vw;
  height: 10vw;
  background-color: red;
+ float: left;
+ 
 }
 @media screen and (max-width:1000px){
-    .left.main.right{
-      width: 10vw;
+    .left{
+      width: 20vw;
       height:10vw ; 
-      background-color: blueviolet; 
-    }
-}
-@media screen and (max-width:800px){
-
-    .left,main,right{
-        width: 10vw;
-        height: 10vw;
-        background-color: aquamarine;
+      background-color:blue;
+      float: left;
+      
     }
 }
 @media screen and (max-width:600px){
 
-    .left,main,right{
-        width: 10vw;
+    .left{
+        width: 20vw;
         height: 10vw;
-        background-color: brown;
+        background-color: aquamarine;
+        float: left;
+        
     }
 }
+.main{
+width:30vw ;
+height: 10vw;
+background-color: lightblue;
+float: left;
 
+}
+@media screen and (max-width:1000px){
+
+.main{
+    width: 30vw;
+    height: 10vw;
+    background-color:goldenrod;
+    float: left;
+    
+}
+}@media screen and (max-width:600px){
+
+.main{
+    width: 30vw;
+    height: 10vw;
+    background-color: lightslategray;
+    float: left;
+    
+}
+}
+.right{
+width:20vw ;
+height: 10vw;
+background-color:green;
+float:left;
+
+}
+@media screen and (max-width:1000px){
+
+.right{
+    width: 20vw;
+    height: 10vw;
+    background-color:lightsalmon;
+    float:left;
+    
+}
+}@media screen and (max-width:600px){
+
+.right{
+    width: 20vw;
+    height: 10vw;
+    background-color:lawngreen;
+    float:left;
+    
+}
+}
     </style>
 </head>
 <body>
